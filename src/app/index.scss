@@ -1,0 +1,35 @@
+
+.main{
+  min-height: 100vh;
+  background-image: url(https://gyvenimokeliu.files.wordpress.com/2018/10/kelionc497.jpg?w=600);
+  background-size: cover;
+  &--header{
+        border: 1px solid white;  
+        flex-direction: column;
+        display: flex;
+        align-content: space-around;
+        padding: 150px;
+        max-width: 880px;
+
+//          display:flex;
+//  flex-direction:row;
+//  width: fit-content;
+//  height: 500px;
+//  align-self: center;
+  }
+  &--Date{
+    flex-grow: inherit;
+    color: white; 
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+  }
+  &--Time{
+      border: 1px solid white;  
+   height: 50%;
+   background:rgba(0, 140, 255, 0.288);
+   margin: 5px;
+   color: white;
+
+ }
+}
